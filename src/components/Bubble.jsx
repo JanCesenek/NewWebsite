@@ -46,7 +46,7 @@ const Bubble = ({
         !functionality &&
         !clicked &&
         !introBubble &&
-        `transition-all duration-1000 hover:cursor-pointer hover:scale-125 hover:border-blue-500 hover:shadow-blue-500`
+        `lg:transition-all lg:duration-1000 lg:hover:cursor-pointer lg:hover:scale-125 lg:hover:border-blue-500 lg:hover:shadow-blue-500`
       } ${functionality && "my-20 mx-80"} ${hiddenStatus && !clicked && "hidden"} ${
         hovered && !clicked && !functionality && !introBubble && classes.Lightning
       } ${width && height && "font-Goldman text-[1.6rem]"} ${clicked && "mx-80"}`}
