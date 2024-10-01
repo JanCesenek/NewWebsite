@@ -58,7 +58,9 @@ const Bubble = ({
         <h1 className={clicked ? classes.BackPart : classes.FrontPart}>{title}</h1>
       )}
       {/* Icon after you hover over any projects/intro questions, prompting you to click it for more info */}
-      {hovered && !clicked && content && <TbHandClick className="animate-bounce w-10 h-10 mt-5" />}
+      {hovered && !clicked && content && (
+        <TbHandClick className="animate-bounce w-10 h-10 mt-5 hidden lg:block" />
+      )}
       {/* Bubble behaviour for description of apps */}
       {functionality && (
         <div className="flex flex-col items-center [&>*]:my-2">
