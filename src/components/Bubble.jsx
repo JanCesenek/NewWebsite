@@ -85,6 +85,19 @@ const Bubble = ({
         {content && (
           <div className="flex flex-col">
             <h1 className="font-bold underline self-center mb-10 text-[1.7rem]">{title}</h1>
+            {contact && (
+              <div className="flex flex-col">
+                <p className="flex items-center [&>*]:mx-2">
+                  <MdEmail />{" "}
+                  <a href="mailto:jan.cesenekCZ@gmail.com" target="_blank">
+                    jan.cesenekCZ@gmail.com
+                  </a>
+                </p>
+                <p className="flex items-center [&>*]:mx-2">
+                  <FaPhoneAlt /> <span>+420 773 140 855</span>
+                </p>
+              </div>
+            )}
             <div className="w-full font-bold mt-2 mb-5 py-4 border-b-4 border-blue-600/50">
               {content}
             </div>
@@ -113,19 +126,6 @@ const Bubble = ({
               <p>{czech ? "Zpět" : "Back"}</p>
               <FaArrowRightToBracket className="w-10 h-10" />
             </div>
-          </div>
-        )}
-        {contact && (
-          <div className="flex flex-col">
-            <p className="flex items-center mx-2">
-              <MdEmail />{" "}
-              <a href="mailto:jan.cesenekCZ@gmail.com" target="_blank">
-                jan.cesenekCZ@gmail.com
-              </a>
-            </p>
-            <p className="flex items-center mx-2">
-              <FaPhoneAlt /> <span>+420 773 140 855</span>
-            </p>
           </div>
         )}
       </div>
