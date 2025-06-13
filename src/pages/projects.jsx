@@ -144,7 +144,7 @@ const Projects = () => {
             }
             link="https://steelchefs.jancesenek.dev"
             project
-            video="/videos/Steelchefs.mp4"
+            video="https://s3.eu-central-1.amazonaws.com/jancesenek.dev/Steelchefs.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAWCYYANY2VMDCA3NT%2F20250613%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20250613T163048Z&X-Amz-Expires=300&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDEaDGV1LWNlbnRyYWwtMSJIMEYCIQCV1Pileeevbn1g8KneMVi5wmH0YNQsWVNS7nB7rmo8wAIhAJIcILUSpP3blslnlgORO3TC%2B2xGXLfPn4Pr5G3Ah4QRKu0CCBoQABoMNDE4MjcyODAwMzA5IgxyOgcO%2Bf5EFI2ugUQqygKsqJNO%2Fkj0pviZdoqW8CtjEM7cwLdGRPfhKuOQdJBBZ0XU3iNeEoxprCv7pd0zLSsRkbqxRaRPMvYgeWuxvW2%2BfZn4gZX1rbFyv%2F9Ov6%2BSU10hKFeSnRfxPJTIw75ngmpBJmU9ROQr18Uar76DO85DFvKR5j%2BHkawtSCFEIqXQtXM058Beg4rNNzUJ3GqA%2BqochDot1Av7LBgS1xflldkkbRg1oCIgfH9Ti%2BIyTPoVxfbHuLwDKyUY965itE1YtDiigftDC86ExPuqbxwTAB6gX03B6z12javZ9FYzA2qRelDEaS1g58HeW0%2Bht7GH27LCrXblRzQTDuXsUdAXrX4BHgt2icuD6zl5Q82GFxrxDXI2iHUf4caj7uZWBd1FagWXy8StTytBLl6Mesz97hrGSZPuwCZj0e1xtGy4BxLYrzMA5dpX33xgAdUw2aGxwgY6rAIHwWlrsBObN%2BJ7ISvXbuNS4XGu9rdPivUxG8FABfwIHnPsz9C0IPu0PtlCwDb%2FRQSQpIuv8VIpE1%2FoDBNqYzsAlGXLAitOtVdXRh3FN2u2YfqjYZpYfbs%2F2c4q1MHtHgQw4brl85lkwu1yYabBbur8LpPhOvWm6Wy8aKHELSRRGXchRhvkQg%2FgxCD1Omgdn8ipbLInnzp%2FdoJsJx54p7pcIbz9Av5%2FFTg32fJNUiDSpKYqIANhXp57PhfGM9LUcRwMaijYqi8D1G%2Fz3d3pKyXd8WEOygY9utUEmyfJJPG69XPn003vlei1%2FGNMAMp1D5p7vojXlA7MjR1A6r%2FB5NL%2BRB9OwPi8UFZYRwPetG6XCgdVNfbA0D22y0bKZpH55ePY3I0f3zjtYhu8ixI%3D&X-Amz-Signature=247bd5cbf607cfd6332890373906627436b1dc065c4650a3c2cbc804fc33eafe&X-Amz-SignedHeaders=host&response-content-disposition=inline"
           />
           <Bubble
             title="Voyapp"
@@ -233,7 +233,7 @@ const Projects = () => {
             }
             link="https://voyapp.jancesenek.dev"
             project
-            video="/videos/Voyapp.mp4"
+            video="https://s3.eu-central-1.amazonaws.com/jancesenek.dev/Voyapp.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAWCYYANY2VMDCA3NT%2F20250613%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20250613T163007Z&X-Amz-Expires=300&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDEaDGV1LWNlbnRyYWwtMSJIMEYCIQCV1Pileeevbn1g8KneMVi5wmH0YNQsWVNS7nB7rmo8wAIhAJIcILUSpP3blslnlgORO3TC%2B2xGXLfPn4Pr5G3Ah4QRKu0CCBoQABoMNDE4MjcyODAwMzA5IgxyOgcO%2Bf5EFI2ugUQqygKsqJNO%2Fkj0pviZdoqW8CtjEM7cwLdGRPfhKuOQdJBBZ0XU3iNeEoxprCv7pd0zLSsRkbqxRaRPMvYgeWuxvW2%2BfZn4gZX1rbFyv%2F9Ov6%2BSU10hKFeSnRfxPJTIw75ngmpBJmU9ROQr18Uar76DO85DFvKR5j%2BHkawtSCFEIqXQtXM058Beg4rNNzUJ3GqA%2BqochDot1Av7LBgS1xflldkkbRg1oCIgfH9Ti%2BIyTPoVxfbHuLwDKyUY965itE1YtDiigftDC86ExPuqbxwTAB6gX03B6z12javZ9FYzA2qRelDEaS1g58HeW0%2Bht7GH27LCrXblRzQTDuXsUdAXrX4BHgt2icuD6zl5Q82GFxrxDXI2iHUf4caj7uZWBd1FagWXy8StTytBLl6Mesz97hrGSZPuwCZj0e1xtGy4BxLYrzMA5dpX33xgAdUw2aGxwgY6rAIHwWlrsBObN%2BJ7ISvXbuNS4XGu9rdPivUxG8FABfwIHnPsz9C0IPu0PtlCwDb%2FRQSQpIuv8VIpE1%2FoDBNqYzsAlGXLAitOtVdXRh3FN2u2YfqjYZpYfbs%2F2c4q1MHtHgQw4brl85lkwu1yYabBbur8LpPhOvWm6Wy8aKHELSRRGXchRhvkQg%2FgxCD1Omgdn8ipbLInnzp%2FdoJsJx54p7pcIbz9Av5%2FFTg32fJNUiDSpKYqIANhXp57PhfGM9LUcRwMaijYqi8D1G%2Fz3d3pKyXd8WEOygY9utUEmyfJJPG69XPn003vlei1%2FGNMAMp1D5p7vojXlA7MjR1A6r%2FB5NL%2BRB9OwPi8UFZYRwPetG6XCgdVNfbA0D22y0bKZpH55ePY3I0f3zjtYhu8ixI%3D&X-Amz-Signature=9738c1b4be38a6d57782317b740e00fcfeefd5777d5bb1dbfce448e77d9969ba&X-Amz-SignedHeaders=host&response-content-disposition=inline"
           />
           <Bubble
             title="Chulak Bazaar"
@@ -306,7 +306,7 @@ const Projects = () => {
             }
             link="https://chulakbazaar.jancesenek.dev"
             project
-            video="/videos/ChulakBazaar.mp4"
+            video="https://s3.eu-central-1.amazonaws.com/jancesenek.dev/ChulakBazaar.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAWCYYANY2VMDCA3NT%2F20250613%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20250613T162945Z&X-Amz-Expires=300&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDEaDGV1LWNlbnRyYWwtMSJIMEYCIQCV1Pileeevbn1g8KneMVi5wmH0YNQsWVNS7nB7rmo8wAIhAJIcILUSpP3blslnlgORO3TC%2B2xGXLfPn4Pr5G3Ah4QRKu0CCBoQABoMNDE4MjcyODAwMzA5IgxyOgcO%2Bf5EFI2ugUQqygKsqJNO%2Fkj0pviZdoqW8CtjEM7cwLdGRPfhKuOQdJBBZ0XU3iNeEoxprCv7pd0zLSsRkbqxRaRPMvYgeWuxvW2%2BfZn4gZX1rbFyv%2F9Ov6%2BSU10hKFeSnRfxPJTIw75ngmpBJmU9ROQr18Uar76DO85DFvKR5j%2BHkawtSCFEIqXQtXM058Beg4rNNzUJ3GqA%2BqochDot1Av7LBgS1xflldkkbRg1oCIgfH9Ti%2BIyTPoVxfbHuLwDKyUY965itE1YtDiigftDC86ExPuqbxwTAB6gX03B6z12javZ9FYzA2qRelDEaS1g58HeW0%2Bht7GH27LCrXblRzQTDuXsUdAXrX4BHgt2icuD6zl5Q82GFxrxDXI2iHUf4caj7uZWBd1FagWXy8StTytBLl6Mesz97hrGSZPuwCZj0e1xtGy4BxLYrzMA5dpX33xgAdUw2aGxwgY6rAIHwWlrsBObN%2BJ7ISvXbuNS4XGu9rdPivUxG8FABfwIHnPsz9C0IPu0PtlCwDb%2FRQSQpIuv8VIpE1%2FoDBNqYzsAlGXLAitOtVdXRh3FN2u2YfqjYZpYfbs%2F2c4q1MHtHgQw4brl85lkwu1yYabBbur8LpPhOvWm6Wy8aKHELSRRGXchRhvkQg%2FgxCD1Omgdn8ipbLInnzp%2FdoJsJx54p7pcIbz9Av5%2FFTg32fJNUiDSpKYqIANhXp57PhfGM9LUcRwMaijYqi8D1G%2Fz3d3pKyXd8WEOygY9utUEmyfJJPG69XPn003vlei1%2FGNMAMp1D5p7vojXlA7MjR1A6r%2FB5NL%2BRB9OwPi8UFZYRwPetG6XCgdVNfbA0D22y0bKZpH55ePY3I0f3zjtYhu8ixI%3D&X-Amz-Signature=9c97756f3708b44fbd6ed293bd0427956471d778f8a78b6a5aeac56c59a56a0e&X-Amz-SignedHeaders=host&response-content-disposition=inline"
           />
           <Bubble
             title="Wormhole Media"
@@ -390,7 +390,7 @@ const Projects = () => {
             }
             link="https://wormholemedia.jancesenek.dev"
             project
-            video="/videos/WormholeMedia.mp4"
+            video="https://s3.eu-central-1.amazonaws.com/jancesenek.dev/WormholeMedia.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAWCYYANY2VMDCA3NT%2F20250613%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20250613T162820Z&X-Amz-Expires=300&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDEaDGV1LWNlbnRyYWwtMSJIMEYCIQCV1Pileeevbn1g8KneMVi5wmH0YNQsWVNS7nB7rmo8wAIhAJIcILUSpP3blslnlgORO3TC%2B2xGXLfPn4Pr5G3Ah4QRKu0CCBoQABoMNDE4MjcyODAwMzA5IgxyOgcO%2Bf5EFI2ugUQqygKsqJNO%2Fkj0pviZdoqW8CtjEM7cwLdGRPfhKuOQdJBBZ0XU3iNeEoxprCv7pd0zLSsRkbqxRaRPMvYgeWuxvW2%2BfZn4gZX1rbFyv%2F9Ov6%2BSU10hKFeSnRfxPJTIw75ngmpBJmU9ROQr18Uar76DO85DFvKR5j%2BHkawtSCFEIqXQtXM058Beg4rNNzUJ3GqA%2BqochDot1Av7LBgS1xflldkkbRg1oCIgfH9Ti%2BIyTPoVxfbHuLwDKyUY965itE1YtDiigftDC86ExPuqbxwTAB6gX03B6z12javZ9FYzA2qRelDEaS1g58HeW0%2Bht7GH27LCrXblRzQTDuXsUdAXrX4BHgt2icuD6zl5Q82GFxrxDXI2iHUf4caj7uZWBd1FagWXy8StTytBLl6Mesz97hrGSZPuwCZj0e1xtGy4BxLYrzMA5dpX33xgAdUw2aGxwgY6rAIHwWlrsBObN%2BJ7ISvXbuNS4XGu9rdPivUxG8FABfwIHnPsz9C0IPu0PtlCwDb%2FRQSQpIuv8VIpE1%2FoDBNqYzsAlGXLAitOtVdXRh3FN2u2YfqjYZpYfbs%2F2c4q1MHtHgQw4brl85lkwu1yYabBbur8LpPhOvWm6Wy8aKHELSRRGXchRhvkQg%2FgxCD1Omgdn8ipbLInnzp%2FdoJsJx54p7pcIbz9Av5%2FFTg32fJNUiDSpKYqIANhXp57PhfGM9LUcRwMaijYqi8D1G%2Fz3d3pKyXd8WEOygY9utUEmyfJJPG69XPn003vlei1%2FGNMAMp1D5p7vojXlA7MjR1A6r%2FB5NL%2BRB9OwPi8UFZYRwPetG6XCgdVNfbA0D22y0bKZpH55ePY3I0f3zjtYhu8ixI%3D&X-Amz-Signature=a3b9f2d305849a9ae794868594d5e995c4f6cb3a11052c5020ff002184d53bfa&X-Amz-SignedHeaders=host&response-content-disposition=inline"
           />
           <Bubble
             title={czech ? "Člověče, nezlob se!" : "Man, don't get angry!"}
