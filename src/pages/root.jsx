@@ -10,7 +10,7 @@ const RootLayout = () => {
 
   return (
     <div className="relative min-h-screen">
-      <div className="absolute sm:top-0 top-64 right-2 flex justify-around items-center sm:opacity-50">
+      <div className="absolute sm:top-0 top-56 right-2 flex justify-around items-center sm:opacity-50">
         <CZ className="w-10 h-5 hover:cursor-pointer" onClick={() => setCzech(true)} />
         <GB className="w-10 h-5 hover:cursor-pointer" onClick={() => setCzech(false)} />
       </div>

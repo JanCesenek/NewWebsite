@@ -42,7 +42,7 @@ const Bubble = ({
       className={`${width || (clicked || functionality ? "min-w-[30rem]" : "w-[30rem]")} ${
         height || (clicked || functionality ? "min-h-[15rem]" : "h-[15rem]")
       } ${
-        functionality && "w-full md:w-4/5 mt-32"
+        (functionality || (content && clicked && !project && !contact)) && "w-full md:w-4/5 mt-32"
       } bg-black/90 text-orange-200 border border-orange-400 rounded-lg p-10 shadow-lg shadow-orange-400 relative flex flex-col justify-center items-center ${
         introBubble &&
         `scale-125 border-orange-500 shadow-orange-200 text-[1.2rem] md:text-[1.7rem] ${classes.LightningStrikesTwice}`

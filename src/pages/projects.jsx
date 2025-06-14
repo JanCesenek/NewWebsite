@@ -49,7 +49,7 @@ const Projects = () => {
         />
       ) : (
         <div
-          className={`mt-10 w-4/5 grid grid-cols-1 md:grid-cols-2 gap-y-28 min-h-[50rem] justify-items-center items-center ${
+          className={`mt-10 w-full md:w-4/5 grid grid-cols-1 md:grid-cols-2 gap-y-28 min-h-[50rem] justify-items-center items-center ${
             hidden && "!grid-cols-1"
           }`}>
           <Bubble
