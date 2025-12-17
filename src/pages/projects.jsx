@@ -53,6 +53,85 @@ const Projects = () => {
             hidden && "!grid-cols-1"
           }`}>
           <Bubble
+            title="TJ ŠO Chrudim"
+            content={
+              czech
+                ? "Stránky chrudimského šachového oddílu."
+                : "Website of chess club from Chrudim."
+            }
+            hiddenStatus={hidden}
+            clickTheBubble={() => setHidden(!hidden)}
+            getDetail={(e) => setDetail(e)}
+            tech="React/Vite.js, TailwindCSS, Leaflet, Express.js, Prisma, postgreSQL database, Tiptap editor, react-chessboard, chess.js"
+            description={
+              <>
+                <p className="text-[1.8rem] font-bold my-10">
+                  Můj první projekt, který jsem dělal i pro někoho jiného a neslouží pouze za účelem
+                  sebeprezentace. Vytvořil jsem novou webovku našemu šachovému oddílu v Chrudimi.
+                  Stránka je sice stále ve fázi vývoje a některý obsah je stále třeba doplnit,
+                  nicméně její hlavní funkcionalita je již hotová.
+                </p>
+                <p className="my-5">
+                  V hlavní sekci 'Články', jak již napovídá název, jsou veškeré články našeho oddílu
+                  vytvořené v editoru Tiptap (téměř totožná funkcionalita jako v mém předchozím
+                  projektu Steelchefs, kde mám i videoukázku). Editor má nicméně oproti mojí
+                  předchozí aplikaci jednu funkci navíc, a to možnost vkládání komentovaných
+                  šachových partií přímo do článku. K tomu slouží knihovna chess.js (pro logiku
+                  šachu) a react-chessboard (pro zobrazení šachovnice). Vkládání partií funguje tak,
+                  že v editoru je speciální tlačítko pro vložení šachovnice, po jehož stisknutí se
+                  do článku vloží šachovnice s výchozí pozicí. Následně je možné pomocí speciálního
+                  formátu zápisu tahů (PGN) zadat jednotlivé tahy, které se pak na šachovnici
+                  vykreslí. Kromě toho je možné přidat i komentáře/sílu tahů k jednotlivým tahům,
+                  které se zobrazí pod šachovnicí.
+                </p>
+                <p className="my-5">
+                  V sekci 'Soutěž' naleznete tabulky všech soutěží, kterých se náš oddíl účastní.
+                  Data se do této sekce načítají z externího API Českého šachového svazu, takže jsou
+                  vždy aktuální.
+                </p>
+                <p className="my-5">
+                  Sekce 'Historie' a 'Kontakt' jsou zatím prázdné, nicméně se stejně bude jednat
+                  pouze o statická data.
+                </p>
+              </>
+            }
+            descriptionGB={
+              <>
+                <p className="text-[1.8rem] font-bold my-10">
+                  My first project, which I made for someone else and not only for
+                  self-presentation. I created a new website for our chess club in Chrudim. The
+                  website is still in development phase and some content still needs to be added,
+                  however its main functionality is already finished.
+                </p>
+                <p className="my-5">
+                  In main section 'Články(Articles)', as the name suggests, there are all articles
+                  of our club created in Tiptap editor (almost identical functionality as in my
+                  previous project Steelchefs, where I also have a video demo). However, the editor
+                  has one more function compared to my previous app, which is the ability to insert
+                  commented chess games directly into the article. For this purpose, chess.js
+                  library (for chess logic) and react-chessboard (for displaying chessboard) are
+                  used. Inserting games works so that there is a special button in the editor for
+                  inserting chessboard, after clicking it, a chessboard with starting position is
+                  inserted into the article. Then it's possible to enter individual moves using a
+                  special notation format (PGN), which are then rendered on the chessboard. Besides
+                  that, it's also possible to add comments/strength of moves to individual moves,
+                  which are displayed below the chessboard.
+                </p>
+                <p>
+                  In 'Soutěž(Competition)' section, you can find tables of all competitions our club
+                  participates in. Data in this section is loaded from external API of Czech Chess
+                  Federation, so it's always up-to-date.
+                </p>
+                <p className="my-5">
+                  'Historie(History)' and 'Kontakt(Contact)' sections are currently empty, however
+                  they will only contain static data.
+                </p>
+              </>
+            }
+            link="https://sachy.tjchrudim.cz"
+            project
+          />
+          <Bubble
             title="Steelchefs"
             content={czech ? "E-shop s kuchyňskými potřebami." : "Kitchen equipment e-commerce."}
             hiddenStatus={hidden}
