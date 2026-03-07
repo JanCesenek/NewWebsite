@@ -89,10 +89,7 @@ const Projects = () => {
                   Data se do této sekce načítají z externího API Českého šachového svazu, takže jsou
                   vždy aktuální.
                 </p>
-                <p className="my-5">
-                  Sekce 'Historie' a 'Kontakt' jsou zatím prázdné, nicméně se stejně bude jednat
-                  pouze o statická data.
-                </p>
+                <p className="my-5">Sekce 'Historie' a 'Kontakt' obsahují pouze statická data.</p>
               </>
             }
             descriptionGB={
@@ -123,8 +120,7 @@ const Projects = () => {
                   Federation, so it's always up-to-date.
                 </p>
                 <p className="my-5">
-                  'Historie(History)' and 'Kontakt(Contact)' sections are currently empty, however
-                  they will only contain static data.
+                  'Historie(History)' and 'Kontakt(Contact)' sections contain only static data.
                 </p>
               </>
             }
