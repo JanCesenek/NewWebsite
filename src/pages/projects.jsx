@@ -82,7 +82,8 @@ const Projects = () => {
                   do článku vloží šachovnice s výchozí pozicí. Následně je možné pomocí speciálního
                   formátu zápisu tahů (PGN) zadat jednotlivé tahy, které se pak na šachovnici
                   vykreslí. Kromě toho je možné přidat i komentáře/sílu tahů k jednotlivým tahům,
-                  které se zobrazí pod šachovnicí.
+                  které se zobrazí pod šachovnicí. Zde se také dají zobrazit přímé přenosy našich
+                  domácích utkání.
                 </p>
                 <p className="my-5">
                   V sekci 'Soutěž' naleznete tabulky všech soutěží, kterých se náš oddíl účastní.
@@ -112,7 +113,8 @@ const Projects = () => {
                   inserted into the article. Then it's possible to enter individual moves using a
                   special notation format (PGN), which are then rendered on the chessboard. Besides
                   that, it's also possible to add comments/strength of moves to individual moves,
-                  which are displayed below the chessboard.
+                  which are displayed below the chessboard. This is where you can also view live
+                  broadcasts of our home matches.
                 </p>
                 <p>
                   In 'Soutěž(Competition)' section, you can find tables of all competitions our club
