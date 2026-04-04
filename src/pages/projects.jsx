@@ -53,6 +53,62 @@ const Projects = () => {
             hidden && "!grid-cols-1"
           }`}>
           <Bubble
+            title="Weather Explorer"
+            content={czech ? "Vizualizace dat počasí." : "Weather data visualization."}
+            hiddenStatus={hidden}
+            clickTheBubble={() => setHidden(!hidden)}
+            getDetail={(e) => setDetail(e)}
+            tech="React/Vite.js, TailwindCSS, Leaflet, Express.js, Prisma, postgreSQL database, Tomorrow.io API, Recharts"
+            description={
+              <>
+                <p className="text-[1.8rem] font-bold my-10">
+                  Celkem jednoduchá vizualizace dat počasí. Data se načítají z API Tomorrow.io,
+                  které poskytuje velmi přesné a detailní informace o počasí.
+                </p>
+                <p className="my-5">
+                  Jelikož má free verze svoje limitace, tak se data načítají pouze pro rozsah 4 dnů
+                  dopředu, ale i tak je možné vidět všechny důležité informace, jako je teplota,
+                  srážky, vítr, vlhkost, atd. Mohl jsem samozřejmě přidat více parametrů, ale pro
+                  účely ukázky mi to přišlo nadbytečné. Data se zobrazují pomocí knihovny Recharts,
+                  která umožňuje vytvářet různé typy grafů. Kromě toho je zde také mapa světa, kde
+                  si můžete vybrat jakékoliv místo ve světě a zobrazit si jeho počasí.
+                </p>
+                <p className="my-5">
+                  Lze také vytvořit účet v sekci "Auth", pokud jste přihlášeni, tak se po
+                  vygenerování dat pro požadovanou lokaci se data uloží do databáze, takže je pak
+                  možné se kdykoliv vrátit k dříve vygenerovaným datům bez nutnosti znovu načítat
+                  data z API. V profilu jsou pak všechna tato data zobrazena a je možné je smazat,
+                  pokud už nejsou potřeba.
+                </p>
+              </>
+            }
+            descriptionGB={
+              <>
+                <p className="text-[1.8rem] font-bold my-10">
+                  A relatively simple weather data visualization. Data is fetched from the
+                  Tomorrow.io API, which provides very accurate and detailed weather information.
+                </p>
+                <p className="my-5">
+                  Since the free version has its limitations, data is only fetched for a 4-day
+                  range, but it is still possible to see all important information such as
+                  temperature, precipitation, wind, humidity, etc. Of course, I could have added
+                  more parameters, but for demonstration purposes, it seemed unnecessary. Data is
+                  displayed using the Recharts library, which allows creating various types of
+                  charts. Additionally, there is a world map where you can select any location and
+                  view its weather.
+                </p>
+                <p className="my-5">
+                  You can also create an account in the "Auth" section. If you are logged in, the
+                  generated data for the desired location is saved to the database, so you can
+                  return to previously generated data without having to fetch it from the API again.
+                  In the profile, all this data is displayed and can be deleted if no longer needed.
+                </p>
+              </>
+            }
+            link="https://weather.jancesenek.dev"
+            project
+          />
+          <Bubble
             title="TJ ŠO Chrudim"
             content={
               czech
