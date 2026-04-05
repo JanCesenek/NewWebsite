@@ -74,6 +74,12 @@ const Projects = () => {
                   si můžete vybrat jakékoliv místo ve světě a zobrazit si jeho počasí.
                 </p>
                 <p className="my-5">
+                  Kromě statistik jednotlivých údajů se podle dat zobrazuje i dynamická předpověď
+                  počasí. V případě extrémních podmínek (vysoká/nízká teplota, silné srážky, silný
+                  vítr) se v předpovědi zobrazují varování, která se liší podle intenzity daného
+                  parametru.
+                </p>
+                <p className="my-5">
                   Lze také vytvořit účet v sekci "Auth", pokud jste přihlášeni, tak se po
                   vygenerování dat pro požadovanou lokaci se data uloží do databáze, takže je pak
                   možné se kdykoliv vrátit k dříve vygenerovaným datům bez nutnosti znovu načítat
@@ -96,6 +102,12 @@ const Projects = () => {
                   displayed using the Recharts library, which allows creating various types of
                   charts. Additionally, there is a world map where you can select any location and
                   view its weather.
+                </p>
+                <p className="my-5">
+                  Besides the statistics of individual parameters, a dynamic weather forecast is
+                  also displayed based on the data. In case of extreme conditions (high/low
+                  temperature, heavy precipitation, strong wind), warnings are displayed in the
+                  forecast, which differ according to the intensity of the given parameter.
                 </p>
                 <p className="my-5">
                   You can also create an account in the "Auth" section. If you are logged in, the
